@@ -9,7 +9,7 @@ controllerbuild:
   enabled: true
 controllerworkflow:
   enabled: false
-dockerRegistry: docker.io
+dockerRegistry: docker.io/googlecontainer
 expose:
   Annotations:
     helm.sh/hook: post-install,post-upgrade
