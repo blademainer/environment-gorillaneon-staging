@@ -9,7 +9,6 @@ controllerbuild:
   enabled: true
 controllerworkflow:
   enabled: false
-dockerRegistry: docker.io
 expose:
   Annotations:
     helm.sh/hook: post-install,post-upgrade
